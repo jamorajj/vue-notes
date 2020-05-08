@@ -25,8 +25,6 @@
 </template>
 
 <script>
-import { mapState } from "vuex";
-
 export default {
   name: "Login",
   data() {
@@ -35,9 +33,6 @@ export default {
       password: "",
       error: ""
     };
-  },
-  computed: {
-    ...mapState(["isLoading"])
   },
   methods: {
     async loginHandler(e) {

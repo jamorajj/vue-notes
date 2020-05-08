@@ -6,6 +6,8 @@ Uses Vuex and Vue Router
 Demo app:
 https://vue-test-72842.web.app
 
+\*\* Update the /src/firebase-setup-file.js with your credentials to use;
+
 ## Project setup
 
 ```

@@ -61,7 +61,7 @@ export default {
     };
   },
   computed: {
-    ...mapState(["isLoading", "currentUser"]),
+    ...mapState(["currentUser"]),
     ...mapGetters([
       "hasNotes",
       "allNotes",

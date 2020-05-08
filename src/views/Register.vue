@@ -24,8 +24,6 @@
 </template>
 
 <script>
-import { mapState } from "vuex";
-
 export default {
   name: "Register",
   data() {
@@ -34,9 +32,6 @@ export default {
       password: "",
       error: ""
     };
-  },
-  computed: {
-    ...mapState(["isLoading"])
   },
   methods: {
     async registerHandler(e) {
