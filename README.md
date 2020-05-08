@@ -3,6 +3,9 @@
 Note taking app with Firebase Firestore as backend
 Uses Vuex and Vue Router
 
+Demo app:
+https://vue-test-72842.web.app
+
 ## Project setup
 
 ```
